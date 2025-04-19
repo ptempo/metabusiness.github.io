@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <p>Our company offers a range of services, including <span>#Automation</span>, <span>#Construction</span>, <span>#DigitalMarketing</span>, and more.</p>
     <title>Index</title>
     <style>
         body {
