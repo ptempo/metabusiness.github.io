@@ -3,56 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Your Page Title]</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Your content here -->
-    <script src="script.js"></script>
-</body>
-</html>
-
-
-styles.css
-
-/* Your styles here */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-
-script.js
-
-// Your JavaScript code here
-console.log("Hello, World!");
-
-
-You can add sections, such as:
-
-1. Header
-2. Hero Section
-3. About Us
-4. Services
-5. Contact Us
-6. Footer
-
-What type of content do you want to feature on your static page?
-[5:04 am, 20/4/2025] Prashant Tempe: content Experts development solutions
-
-Overview Experts development solutions is a diversified enterprise offering a wide range of services, including Automation, Construction, Digital Marketing, HR, Insurance, Interior Design, Landscaping, Logistics, Matrimony, Real Estate, and Steel Supply.
-
-Services Automation : Providing cutting-edge automation solutions for various industries. Construction : Delivering high-quality construction services for residential and commercial projects. Digital Marketing : Crafting effective digital marketing strategies to boost online presence. HR : Offering HR solutions, including recruitment, training, and consulting. Insurance : Providing tailored insurance solutions for individuals and businesses. Interior Design : Creating …
-[5:04 am, 20/4/2025] Meta AI: Based on the content you provided, I'll help you create a basic static website structure. Here's an updated version:
-
-index.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experts Development Solutions</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -91,16 +41,22 @@ index.html
     </section>
     <section id="contact">
         <h2>Get in Touch</h2>
+        <form id="contact-form" action="mailto:prashanttempe@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
         <p>Website: <a href="https://metabusiness.github.io">metabusiness.github.io</a></p>
         <p>Email: <a href="mailto:prashanttempe@gmail.com">prashanttempe@gmail.com</a></p>
         <p>Phone: +919967861294</p>
     </section>
     <footer>
         <p>&copy; Experts Development Solutions</p>
-        <p>Disclaimer: The information contained in this repository is for general information purposes only.</p>
-        <p>License: This repository is released under the MIT License.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
 
@@ -142,10 +98,23 @@ li {
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    clear: both;
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
+
+#contact-form label {
+    margin-bottom: 10px;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contact
