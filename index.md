@@ -2,14 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Diversified Enterprise, Automation, Construction, Digital Marketing, HR, Insurance, Interior Design, Landscaping, Logistics, Matrimony, Real Estate, Steel Supply, Business Solutions, Consulting Services, BPO">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Market Development Outsource </title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 10px;
-        }
-    </style>
 </head>
 <body>
     <h1>Welcome to Repository Name</h1>
