@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>metabusiness.github.io</title>
+    <title>Global Market Development Outsource </title>
     <style>
         body {
             font-family: Arial, sans-serif;
