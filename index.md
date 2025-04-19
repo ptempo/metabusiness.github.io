@@ -3,14 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <p>Our company offers a range of services, including <span>#Automation</span>, <span>#Construction</span>, <span>#DigitalMarketing</span>, and more.</p>
-    <title>Index</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20;
-        }
-    </style>
 </head>
 <body>
     <h1>Welcome to Index</h1>
@@ -26,4 +18,4 @@
 </body>
 </html>
 # metabusiness.github.io
-Expert solutions: Automation, Construction, Digital Marketing, HR, Insurance, Interior Design, Landscaping, Logistics, Matrimony, Real Estate &amp; Steel Supply. Driven by innovation, quality &amp; customer-centric global BPO epartner service.
+Experts solutions: Automation, Construction, Digital Marketing, HR, Insurance, Interior Design, Landscaping, Logistics, Matrimony, Real Estate &amp; Steel Supply. Driven by innovation, quality &amp; customer-centric global BPO epartner service.
