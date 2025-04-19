@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Welcome to Index One Page</h1>
-    <p>This is the main repository for Market GloBal OutSource Development.</p>
+    <p>This is the main Market GloBal OutSource Development.</p>
     <ul>
         <li><a href="https://github.com/ptempo/metabusiness.github.io/blob/main/README.md">README</a></li>
         <li><a href="https://github.com/ptempo/metabusiness.github.io/issues">Issues</a></li>
